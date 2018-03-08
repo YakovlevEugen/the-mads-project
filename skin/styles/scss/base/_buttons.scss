@@ -1,0 +1,13 @@
+.btn {
+  @extend %btn;
+
+  &_primary {
+    @include btn-theme($dark-color, $primary-color);
+  }
+
+  &_arrow {
+    .svg-icon {
+      margin-left: 10px;
+    }
+  }
+}

@@ -1,0 +1,57 @@
+.main-container {
+  display: flex;
+  min-height: 100vh;
+  max-width: 1600px;
+  min-width: 320px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  width: calc(100% - 230px);
+  background-color: $bg-color;
+}
+
+.main-center {
+  flex: 1 0 auto;
+}
+
+.main-header {
+  position: relative;
+  min-height: 100%;
+  max-width: 230px;
+  width: 100%;
+  padding: 45px 30px;
+
+  &:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 214px;
+    width: 150px;
+    background-image: url('/skin/images/aside-circles.png');
+    z-index: -1;
+  }
+}
+
+.main-block {
+  padding: 90px;
+
+  &_dark-bckg {
+    background-color: $bg-color-dark;
+  }
+}
+
+.main-footer {
+
+}
+
+.layout-main {
+  margin: 0 auto;
+  padding: 0 90px;
+}

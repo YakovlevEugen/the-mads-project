@@ -1,0 +1,71 @@
+.change-city {
+  &__ttl {
+    display: inline-block;
+  }
+
+  &__select {
+    display: inline-block;
+    position: relative;
+    margin-left: 5px;
+    padding: 0 10px 0 0;
+    color: $secondary-color;
+    text-indent: 0.01px;
+    text-overflow: "";
+    border: 0;
+    outline: 0;
+    background: url('/skin/images/arrow-down.png') transparent no-repeat right center;
+    appearance: none;
+  }
+
+  &__select::-ms-expand {
+    display: none;
+  }
+}
+
+.main-desc {
+  &__text {
+    column-count: 2;
+    column-gap: 55px;
+  }
+
+  &__btn {
+    margin-top: 20px;
+  }
+}
+
+.films-block {
+  &__ttl {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: -20px;
+    margin-left: -40px;
+  }
+
+  &__item {
+    margin-top: 20px;
+    margin-left: 40px;
+    text-align: center;
+  }
+
+  &__item-img {
+    display: block;
+  }
+
+  &__item-ttl {
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  &__item-desc {
+    margin-top: 10px;
+    color: $base-color-light;
+  }
+}

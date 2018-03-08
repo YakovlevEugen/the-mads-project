@@ -1,0 +1,129 @@
+.poster-slider-layout {
+  position: relative;
+}
+
+.poster-slider {
+  overflow: hidden;
+
+  &:not(.slick-initialized) {
+    display: flex;
+  }
+}
+
+.poster-slider-item {
+  position: relative;
+
+  &__poster {
+    height: 900px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    @include media(1400px) {
+      height: 700px;
+    }
+  }
+
+  &__content {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    max-width: 660px;
+    margin-right: 20%;
+  }
+
+  &__subttl {
+    color: $primary-color;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  &__ttl {
+    color: $light-color;
+    font-size: 70px;
+    font-weight: 500;
+  }
+
+  &__text {
+    margin-top: 45px;
+    color: $light-color;
+    font-size: 15px;
+
+    p {
+      color: inherit;
+    }
+  }
+}
+
+.poster-slider-arrows {
+  display: flex;
+  flex-direction: column-reverse;
+  position: absolute;
+  right: 10%;
+  bottom: 10%;
+
+  .slick-arrow {
+    display: block;
+    position: relative;
+    height: 50px;
+    width: 50px;
+    margin-top: 0;
+    background-color: $secondary-color;
+    border-radius: 50%;
+
+    &:before {
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    &:first-child {
+      margin-top: 10px;
+    }
+  }
+
+  .slick-prev {
+    transform: rotate(180deg);
+  }
+}
+
+.poster-slider-dots {
+  .slick-dots {
+    position: static;
+
+    li {
+      margin: 0;
+
+      &:not(.slick-active) {
+        button {
+          background-color: $gray-color;
+        }
+      }
+
+      &:not(:first-child) {
+        margin-left: 10px;
+      }
+
+      button {
+        height: 35px;
+        width: 35px;
+        border-color: $gray-color;
+      }
+    }
+  }
+}
+
+.slider-progress {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 4px;
+  width: 100%;
+  background-color: transparent;
+
+  &__progress {
+    height: 100%;
+    width: 0;
+    background-color: $primary-color;
+  }
+}

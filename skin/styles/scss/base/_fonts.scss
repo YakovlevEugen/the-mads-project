@@ -1,0 +1,60 @@
+/*--- Montserrat Font Family ---*/
+@font-face {
+  font-family: 'Montserrat';
+  src:  url('/skin/fonts/Montserrat/Regular/montserrat-regular-webfont.eot') format('embedded-opentype');
+  src:  url('/skin/fonts/Montserrat/Regular/montserrat-regular-webfont.eot?#iefix') format('embedded-opentype'),
+        url('/skin/fonts/Montserrat/Regular/montserrat-regular-webfont.otf')  format('opentype'),
+        url('/skin/fonts/Montserrat/Regular/montserrat-regular-webfont.woff2') format('woff2'),
+        url('/skin/fonts/Montserrat/Regular/montserrat-regular-webfont.woff') format('woff'),
+        url('/skin/fonts/Montserrat/Regular/montserrat-regular-webfont.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src:  url('/skin/fonts/Montserrat/Medium/montserrat-medium-webfont.eot') format('embedded-opentype');
+  src:  url('/skin/fonts/Montserrat/Medium/montserrat-medium-webfont.eot?#iefix') format('embedded-opentype'),
+        url('/skin/fonts/Montserrat/Medium/montserrat-medium-webfont.otf')  format('opentype'),
+        url('/skin/fonts/Montserrat/Medium/montserrat-medium-webfont.woff2') format('woff2'),
+        url('/skin/fonts/Montserrat/Medium/montserrat-medium-webfont.woff') format('woff'),
+        url('/skin/fonts/Montserrat/Medium/montserrat-medium-webfont.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src:  url('/skin/fonts/Montserrat/Bold/montserrat-bold-webfont.eot') format('embedded-opentype');
+  src:  url('/skin/fonts/Montserrat/Bold/montserrat-bold-webfont.eot?#iefix') format('embedded-opentype'),
+        url('/skin/fonts/Montserrat/Bold/montserrat-bold-webfont.otf') format('opentype'),
+        url('/skin/fonts/Montserrat/Bold/montserrat-bold-webfont.woff2') format('woff2'),
+        url('/skin/fonts/Montserrat/Bold/montserrat-bold-webfont.woff') format('woff'),
+        url('/skin/fonts/Montserrat/Bold/montserrat-bold-webfont.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+/*--- Gotham Pro Font Family ---*/
+@font-face {
+  font-family: 'Gotham Pro';
+  src:  url('/skin/fonts/GothamPro/Medium/GothamPro-Medium.eot') format('embedded-opentype');
+  src:  url('/skin/fonts/GothamPro/Medium/GothamPro-Medium.eot?#iefix') format('embedded-opentype'),
+        url('/skin/fonts/GothamPro/Medium/GothamPro-Medium.woff') format('woff'),
+        url('/skin/fonts/GothamPro/Medium/GothamPro-Medium.ttf')  format('truetype'),
+        url('/skin/fonts/GothamPro/Medium/GothamPro-Medium.svg#GothamPro-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham Pro';
+  src:  url('/skin/fonts/GothamPro/Bold/GothamPro-Bold.eot') format('embedded-opentype');
+  src:  url('/skin/fonts/GothamPro/Bold/GothamPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('/skin/fonts/GothamPro/Bold/GothamPro-Bold.woff') format('woff'),
+        url('/skin/fonts/GothamPro/Bold/GothamPro-Bold.ttf')  format('truetype'),
+        url('/skin/fonts/GothamPro/Bold/GothamPro-Bold.svg#GothamPro-Bold') format('svg');
+  font-weight: 700;
+  font-style: normal;
+}

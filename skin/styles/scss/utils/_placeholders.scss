@@ -1,0 +1,79 @@
+%btn {
+  display: inline-block;
+  min-width: 170px;
+  height: $btn-height;
+  padding: $btn-padding;
+  vertical-align: middle;
+  font: {
+    family: $font-family-heading;
+    size: $btn-font-size;
+  };
+  line-height: $btn-height - ($btn-border-width*2);
+  text-align: center;
+  text-decoration: none;
+  border: $btn-border-width solid transparent;
+  border-radius: $border-radius-base;
+  outline: none;
+  cursor: pointer;
+  transition: all .2s ease;
+}
+
+%form-element {
+  background-color: $input-bg-color;
+  border: $input-border-width solid $input-border-color;
+  border-radius: $border-radius-base;
+  color: $text-color;
+  display: inline-block;
+  height: $input-height;
+  outline: none;
+  padding: $input-padding;
+  text-align: left;
+  vertical-align: middle;
+  width: 100%;
+  &:focus {
+    border-color: $primary-color;
+  }
+}
+
+%ttl-base {
+  color: $base-color;
+  font-family: $font-family-heading;
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+%clearfix {
+  &:before,
+  &:after {
+    clear: both;
+    content: '';
+    display: table;
+  }
+}
+
+%no-select {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+%justify-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+%centered-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+%centered-self {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

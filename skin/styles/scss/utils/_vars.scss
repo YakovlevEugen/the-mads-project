@@ -1,0 +1,46 @@
+//** Colors
+$base-color: #222220;
+$base-color-light: #666;
+$primary-color: #ffdd2d;
+$secondary-color: #0552b4;
+$attention-color: #d41137;
+$gray-color: #c2c2c2;
+$bg-color: #f7f7f7;
+$bg-color-dark: #f0f0f0;
+$light-color: #fff;
+$dark-color: #000;
+
+//** Body
+$gutter: 20px;
+$body-bg: $light-color;
+$border-radius-base: 10px;
+$text-color: $base-color;
+
+//** Links
+$link-color: $dark-color !default;
+$link-hover-color: $base-color-light !default;
+$link-decoration: none !default;
+$link-hover-decoration: none !default;
+
+//** Typography
+$font-family-base: 'Montserrat', sans-serif !default;
+$font-family-heading: 'Montserrat', sans-serif !default;
+
+$font-size-base: 13px !default;
+$svg-size-base: ($font-size-base/1px) !default;
+
+//** Buttons
+$btn-border-width: 2px;
+$btn-font-size: $font-size-base;
+$btn-height: 45px;
+$btn-padding: 0 $gutter;
+
+//** Forms
+$input-bg-color: white;
+$input-border-width: 2px;
+$input-border-color: $base-color;
+$input-height: 40px;
+$input-padding: 0 $gutter;
+$textarea-height: 160px;
+$input-placeholder-color: $base-color-light;
+$input-checkbox-size: 20px;

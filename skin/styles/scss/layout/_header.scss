@@ -1,0 +1,50 @@
+.header-aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-height: 85vh;
+  height: 100%;
+  color: $dark-color;
+
+  &__ttl {
+    font-family: 'Gotham Pro', sans-serif;
+
+    span {
+      display: inline-block;
+    }
+  }
+
+  &__ttl-num {
+    font-size: 48px;
+    font-weight: bold;
+  }
+
+  &__ttl-text {
+    font-size: 17px;
+    text-transform: uppercase;
+  }
+
+  &__city {
+    margin-top: 45px;
+  }
+
+  &__menu, &__btns {
+    margin-top: 20px;
+  }
+}
+
+.menu {
+  &__list {
+    list-style: none;
+  }
+
+  &__item {
+    &:not(:first-child) {
+      margin-top: 20px;
+    }
+  }
+
+  &__link {
+    font-size: 14px;
+  }
+}

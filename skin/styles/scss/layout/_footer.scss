@@ -1,0 +1,21 @@
+.footer {
+  position: relative;
+  max-height: 575px;
+
+  &__map {
+
+  }
+
+  &__block {
+    position: absolute;
+    top: 60%;
+    left: 90px;
+    transform: translateY(-50%);
+  }
+}
+
+.footer-block {
+  max-width: 590px;
+  padding: 40px;
+  background-color: $light-color;
+}
